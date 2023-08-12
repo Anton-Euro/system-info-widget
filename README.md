@@ -13,7 +13,7 @@ It displays information about:
 
 **Important!** GPU monitoring only works with NVIDIA graphics cards. The application must be run as an ***administrator*** to track CPU metrics. If you see *"not work"* on any of the metrics, it means you haven't launched the application as an administrator or your computer doesn't support one or more of the metrics.
 
-### Installation
+## Installation
 Download the application from the [releases](https://github.com/Anton-Euro/system-info-widget/releases/tag/release) or
 ```bash
 git clone https://github.com/Anton-Euro/system-info-widget.git
