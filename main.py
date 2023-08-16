@@ -47,8 +47,8 @@ if widget_config[4] == 1:
 
 if x > app.screens()[0].geometry().width() - 371:
     x = app.screens()[0].geometry().width() - 371
-if y > app.screens()[0].geometry().height() - 218:
-    y = app.screens()[0].geometry().height() - 218
+if y > app.screens()[0].geometry().height() - sum([30*item for item in widget_config])-15:
+    y = app.screens()[0].geometry().height() - sum([30*item for item in widget_config])-15
     
 mainwindow.setGeometry(x, y, 371, 218)
 
